@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   annotations:
-    iam.gke.io/gcp-service-account: sa-gke-aiplatform@your-unique-project-id.iam.gserviceaccount.com
+    iam.gke.io/gcp-service-account: sa-gke-aiplatform@zml-gke-dev-genai.iam.gserviceaccount.com
   name: k8s-sa-aiplatform
 ---
 apiVersion: apps/v1
