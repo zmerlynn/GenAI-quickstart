@@ -1,0 +1,11 @@
+[global]
+database = "Spanner"
+genai = "VertexAI"
+
+[Spanner]
+instance_id = "npc-chat"
+database_id = "npc-chat"
+
+[VertexAI]
+embedding_model = "textembedding-gecko@003"
+chat_model = "chat-bison"
